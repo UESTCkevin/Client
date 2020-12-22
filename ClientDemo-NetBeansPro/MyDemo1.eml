@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="1.8" jdk_type="JavaSDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="examples.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/examples.jar!/"/>
+	</lib>
+	<lib name="opencv-3412.jar" scope="COMPILE">
+		<srcroot url="jar://$MODULE_DIR$/opencv/opencv-3412.jar!/"/>
+		<relative-module-src project-related="jar://$PROJECT_DIR$/opencv/opencv-3412.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/opencv/opencv-3412.jar!/"/>
+	</lib>
+	<levels>
+		<level name="HCNetSDKCom" value="project"/>
+	</levels>
+</component>

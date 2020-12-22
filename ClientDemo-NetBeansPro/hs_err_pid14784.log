@@ -1,0 +1,28 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffe42de1254, pid=14784, tid=0x0000000000005948
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_131-b11) (build 1.8.0_131-b11)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.131-b11 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# C  [ntdll.dll+0x21254]
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000019c29800):  JavaThread "Thread-4" [_thread_in_native, id=22856, stack(0x000000001c870000,0x000000001c970000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x000000001b21ef30
+
+Registers:
+RAX=0x0000000000000000, RBX=0x0000000000000000, RCX=0x000000001c96e870, RDX=0x000000001b21ef30
+RSP=0x000000001c96e828, RBP=0x000000001c96ea80, RSI=0x0000000040000000, RDI=0x0000000000000007
+R8 =0x0000000000000007, R9 =0x0000000000000000

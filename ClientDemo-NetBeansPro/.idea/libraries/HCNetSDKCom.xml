@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="HCNetSDKCom">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/examples.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jna.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/HCNetSDKCom" />
+      <root url="file://$PROJECT_DIR$" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>
